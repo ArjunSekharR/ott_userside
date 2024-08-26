@@ -1,0 +1,69 @@
+.background1 {
+  background-image: url("https://i.pinimg.com/736x/81/d6/1c/81d61c9b333a7471a027616521515fda.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 100%;
+}
+
+.color {
+  background-color: #E5E4E2;
+}
+
+.adjust {
+  padding: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.myplan-card {
+  flex: 1;
+  margin-right: 20px;                 
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 45%; /* Adjust the maximum width */
+}
+
+.myplan-card .card-header {
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.myplan-card .card-footer {
+  background-color: #f1f1f1;
+  border-radius: 0 0 10px 10px;
+}
+
+.myplan-table {
+  flex: 1;
+  margin-left: 40px;
+  background-color: #343a40;
+  color: #fff;
+  max-width: 45%; /* Adjust the maximum width */
+}
+
+.myplan-table th, .myplan-table td {
+  vertical-align: middle;
+}
+
+.myplan-table .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.myplan-table .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  margin-bottom: 650px;
+}

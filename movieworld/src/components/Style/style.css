@@ -1,0 +1,16 @@
+.background {
+    background-image: url("https://i.pinimg.com/736x/81/d6/1c/81d61c9b333a7471a027616521515fda.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+    padding: 50px;
+
+}
+.left{
+    margin-left: 200px;
+}
+.btn-style{
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
